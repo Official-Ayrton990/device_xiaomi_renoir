@@ -337,6 +337,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
 
 # Power
 PRODUCT_PACKAGES += \
