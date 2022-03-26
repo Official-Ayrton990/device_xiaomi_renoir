@@ -289,8 +289,6 @@ vendor/etc/vintf/manifest/android.hardware.boot@1.1.xml
 # Camera
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib/camera/components/com.mi.node.superiq.so
 vendor/lib/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib/camera/components/com.qti.eisv2.so
@@ -449,7 +447,6 @@ vendor/lib/libthreadutils.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
 vendor/lib/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
@@ -717,7 +714,6 @@ vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
@@ -3141,7 +3137,6 @@ vendor/lib/libbt-hidlclient.so
 vendor/lib/libbtnv.so
 vendor/lib/libc2d30_bltlib.so
 vendor/lib/libcacertclient.so
-vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libcamxifestriping.so
 vendor/lib/libcamxqsatalgo.so
