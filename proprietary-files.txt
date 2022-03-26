@@ -138,65 +138,29 @@ vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
 # Audio
 system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
-vendor/bin/hw/android.hardware.audio.service
-vendor/etc/init/android.hardware.audio.service.rc
-vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib/hw/android.hardware.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.audio@4.0-impl.so
-vendor/lib/hw/android.hardware.audio@5.0-impl.so
-vendor/lib/hw/android.hardware.audio@6.0-impl.so
-vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.lahaina.so
-vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/libalsautils.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.primary.lahaina.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/libalsautils.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
 
 # Audio (FX modules)
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libdynproc.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libozoprocessing.so
 vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/libav_ozoencoder.so
 vendor/lib/libozoaudio.so
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libdynproc.so
 vendor/lib64/soundfx/libozoprocessing.so
 vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
-vendor/lib64/soundfx/libvolumelistener.so
 vendor/lib64/libav_ozoencoder.so
 vendor/lib64/libozoaudio.so
 
@@ -301,7 +265,6 @@ system_ext/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
 system_ext/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 system_ext/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -317,7 +280,6 @@ vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
 vendor/lib/vendor.qti.hardware.btconfigstore@2.0.so
 vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -2264,12 +2226,7 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 app/SoterService/SoterService.apk
 
 # Soundtrigger
-vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib/hw/sound_trigger.primary.lahaina.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib64/hw/sound_trigger.primary.lahaina.so
 
 # Thermal
@@ -3203,7 +3160,6 @@ vendor/lib/libQ6MSFR_manager_stub.so
 vendor/lib/libQTEEConnector_vendor.so
 vendor/lib/libTrustedUIVM.so
 vendor/lib/libVkLayer_q3dtools.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -3219,7 +3175,6 @@ vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libbase64.so
 vendor/lib/libbatching.so
-vendor/lib/libbatterylistener.so
 vendor/lib/libboot_control_qti.so
 vendor/lib/libbt-hidlclient.so
 vendor/lib/libbtnv.so
@@ -3239,7 +3194,6 @@ vendor/lib/libcheckpid.so
 vendor/lib/libcneoplookup.so
 vendor/lib/libcneqmiutils.so
 vendor/lib/libcodec2_soft_common.so
-vendor/lib/libcomprcapture.so
 vendor/lib/libcppf.so
 vendor/lib/libcvpcpuRev_skel.so
 vendor/lib/libdiagjni.so
@@ -3254,7 +3208,6 @@ vendor/lib/libdrc.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libdsd2pcm.so
-vendor/lib/libexthwplugin.so
 vendor/lib/libface3d_dev.so
 vendor/lib/libfastcrc.so
 vendor/lib/libgame_enhance.so
@@ -3270,12 +3223,10 @@ vendor/lib/libgpudataproducer.so
 vendor/lib/libhdcp1prov.so
 vendor/lib/libhdcp2p2prov.so
 vendor/lib/libhdcpsrm.so
-vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libhdr_tm.so
 vendor/lib/libhdrdynamic.so
 vendor/lib/libhdrdynamicootf.so
-vendor/lib/libhfp.so
 vendor/lib/libhydra_common.so
 vendor/lib/libipebpsstriping.so
 vendor/lib/libjnihelper.so
@@ -3375,14 +3326,12 @@ vendor/lib/libsmwrapper.so
 vendor/lib/libsn100u_fw.so
 vendor/lib/libsnapdragoncolor-manager.so
 vendor/lib/libsnapdragoncolor-qdcm.so
-vendor/lib/libsndmonitor.so
 vendor/lib/libsnpe_dsp_domains_v3.so
 vendor/lib/libsns_api.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsns_registry_skel.so
 vendor/lib/libsoc_helper_jni.so
-vendor/lib/libspkrprot.so
 vendor/lib/libspl.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/libssccalapi.so
@@ -3495,7 +3444,6 @@ vendor/lib64/libQ6MSFR_manager_stub.so
 vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/libTrustedUIVM.so
 vendor/lib64/libVkLayer_q3dtools.so
-vendor/lib64/liba2dpoffload.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -3514,7 +3462,6 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libav_ozodecoder.so
 vendor/lib64/libbase64.so
 vendor/lib64/libbatching.so
-vendor/lib64/libbatterylistener.so
 vendor/lib64/libboot_control_qti.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
@@ -3536,7 +3483,6 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libcodec2_hidl@1.1.so
 vendor/lib64/libcodec2_soft_ozodec.so
 vendor/lib64/libcodec2_soft_ozoenc.so
-vendor/lib64/libcomprcapture.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libdisp-aba.so
@@ -3549,7 +3495,6 @@ vendor/lib64/libdpps.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libembmsservice.so
-vendor/lib64/libexthwplugin.so
 vendor/lib64/libface3d_dev.so
 vendor/lib64/libgame_enhance.so
 vendor/lib64/libgameoptfeature.so
@@ -3567,12 +3512,10 @@ vendor/lib64/libgpudataproducer.so
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
-vendor/lib64/libhdmiedid.so
 vendor/lib64/libhdmipassthru.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
-vendor/lib64/libhfp.so
 vendor/lib64/libhydra_common.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libjnihelper.so
@@ -3686,14 +3629,12 @@ vendor/lib64/libslimclient.so
 vendor/lib64/libsmemlog.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
-vendor/lib64/libsndmonitor.so
 vendor/lib64/libsnpe_dsp_domains_v3.so
 vendor/lib64/libsns_api.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libsoc_helper_jni.so
-vendor/lib64/libspkrprot.so
 vendor/lib64/libspl.so
 vendor/lib64/libsplh.so
 vendor/lib64/libssc_default_listener.so

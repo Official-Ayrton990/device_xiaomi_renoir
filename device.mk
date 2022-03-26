@@ -74,6 +74,43 @@ PRODUCT_PACKAGES += \
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.service \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.soundtrigger@2.3-impl
+
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.bluetooth.default \
+    audio.primary.lahaina \
+    audio.r_submix.default \
+    audio.usb.default \
+
+PRODUCT_PACKAGES += \
+    liba2dpoffload \
+    libaudiopreprocessing \
+    libbatterylistener \
+    libbundlewrapper \
+    libcomprcapture \
+    libdownmix \
+    libdynproc \
+    libeffectproxy \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
+    libldnhncr \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libreverbwrapper \
+    libsndmonitor \
+    libspkrprot \
+    libvisualizer \
+    libvolumelistener
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
