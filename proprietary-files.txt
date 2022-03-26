@@ -474,7 +474,6 @@ vendor/lib/libcom.xiaomi.pluginutils.so
 vendor/lib/libcvface_api.so
 vendor/lib/libcvp2_1.so
 vendor/lib/libcvp_common.so
-vendor/lib/libdisplayconfig.qti.so
 vendor/lib/libgralloc.qti.so
 vendor/lib/libgrallocutils.so
 vendor/lib/libmegface.so
@@ -709,7 +708,6 @@ vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libcvface_api.so
 vendor/lib64/libcvp2_1.so
 vendor/lib64/libcvp_common.so
-vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libfocus.so
 vendor/lib64/libgralloc.qti.so
 vendor/lib64/libgrallocutils.so
@@ -1067,13 +1065,6 @@ system_ext/lib/vendor.display.color@1.0.so
 system_ext/lib/vendor.display.color@1.1.so
 system_ext/lib/vendor.display.color@1.2.so
 system_ext/lib/vendor.display.color@1.3.so
-system_ext/lib/vendor.display.config@1.0.so
-system_ext/lib/vendor.display.config@1.1.so
-system_ext/lib/vendor.display.config@1.2.so
-system_ext/lib/vendor.display.config@1.3.so
-system_ext/lib/vendor.display.config@1.4.so
-system_ext/lib/vendor.display.config@1.5.so
-system_ext/lib/vendor.display.config@2.0.so
 system_ext/lib/vendor.display.postproc@1.0.so
 system_ext/lib/vendor.qti.hardware.display.composer@3.0.so
 system_ext/lib64/vendor.display.color@1.0.so
@@ -1091,15 +1082,9 @@ system_ext/lib64/vendor.display.postproc@1.0.so
 system_ext/lib64/vendor.qti.hardware.display.composer@3.0.so
 vendor/bin/hw/android.hardware.memtrack@1.0-service
 vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/hw/vendor.qti.hardware.display.allocator-service
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
-vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
 vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -1123,8 +1108,6 @@ vendor/lib/libqdutils.so
 vendor/lib/libqservice.so
 vendor/lib/libsdedrm.so
 vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmcore.so
-vendor/lib/libsdmutils.so
 vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.color@1.1.so
 vendor/lib/vendor.display.color@1.2.so
@@ -1154,13 +1137,6 @@ vendor/lib/vendor.qti.hardware.display.allocator@3.0.so
 vendor/lib/vendor.qti.hardware.display.allocator@4.0.so
 vendor/lib/vendor.qti.hardware.display.composer@1.0.so
 vendor/lib/vendor.qti.hardware.display.composer@2.0.so
-vendor/lib/vendor.qti.hardware.display.mapper@1.0.so
-vendor/lib/vendor.qti.hardware.display.mapper@1.1.so
-vendor/lib/vendor.qti.hardware.display.mapper@2.0.so
-vendor/lib/vendor.qti.hardware.display.mapper@3.0.so
-vendor/lib/vendor.qti.hardware.display.mapper@4.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
 vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
 vendor/lib64/egl/eglSubDriverAndroid.so
@@ -1187,8 +1163,6 @@ vendor/lib64/libqdutils.so
 vendor/lib64/libqservice.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
@@ -1219,13 +1193,6 @@ vendor/lib64/vendor.qti.hardware.display.allocator@4.0.so
 vendor/lib64/vendor.qti.hardware.display.composer@1.0.so
 vendor/lib64/vendor.qti.hardware.display.composer@2.0.so
 vendor/lib64/vendor.qti.hardware.display.composer@3.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@1.1.so
-vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@3.0.so
-vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
 
@@ -1292,15 +1259,11 @@ vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib/libmi-stc-HW-modulate.so
 vendor/lib/libsdm-color.so
-vendor/lib/libtinyxml.so
-vendor/lib/libtinyxml2_1.so
 vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/libmi-stc-HW-modulate.so
 vendor/lib64/libsdm-color.so
-vendor/lib64/libtinyxml.so
-vendor/lib64/libtinyxml2_1.so
 vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # DRM
@@ -2574,7 +2537,6 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib/libmmrtpdecoder.so
 system_ext/lib/libmmrtpencoder.so
-system_ext/lib/libqdMetaData.so
 system_ext/lib/libwfdavenhancements.so
 system_ext/lib/libwfdcommonutils.so
 system_ext/lib/libwfdconfigutils.so
@@ -2597,7 +2559,6 @@ system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
 system_ext/lib64/libmmrtpdecoder.so
 system_ext/lib64/libmmrtpencoder.so
-system_ext/lib64/libqdMetaData.so
 system_ext/lib64/libwfdcommonutils.so
 system_ext/lib64/libwfdconfigutils.so
 system_ext/lib64/libwfddisplayconfig.so
