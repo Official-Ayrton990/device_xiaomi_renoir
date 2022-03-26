@@ -1000,12 +1000,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 
 # ConsumerIr
-vendor/bin/hw/android.hardware.ir@1.0-service
-vendor/etc/init/android.hardware.ir@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.ir@1.0-service.xml
-vendor/lib/hw/android.hardware.ir@1.0-impl.so
 vendor/lib/hw/consumerir.lahaina.so
-vendor/lib64/hw/android.hardware.ir@1.0-impl.so
 vendor/lib64/hw/consumerir.lahaina.so
 
 # Display
