@@ -281,11 +281,6 @@ vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
-# Boot
-vendor/bin/hw/android.hardware.boot@1.1-service
-vendor/etc/init/android.hardware.boot@1.1-service.rc
-vendor/etc/vintf/manifest/android.hardware.boot@1.1.xml
-
 # Camera
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
@@ -2580,7 +2575,6 @@ vendor/bin/ccid_daemon_nr
 vendor/bin/cfrtool
 vendor/bin/charge_logger
 vendor/bin/chattr
-vendor/bin/checkpoint_gc
 vendor/bin/chifeature2test
 vendor/bin/chiofflinepostproctest
 vendor/bin/cnss-daemon
