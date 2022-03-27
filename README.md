@@ -5,7 +5,7 @@ The Xiaomi Mi 11 Lite 5G (codenamed _"renoir"_) is a midrange smartphone from Xi
 
 | Device                  | Xiaomi Mi 11 Lite 5G                                            |
 | ----------------------: | :-------------------------------------------------------------- |
-| SoC                     | Qualcomm SM8250 Snapdragon 778G                                 |
+| SoC                     | Qualcomm SM7350 Snapdragon 780G                                 |
 | CPU                     | 1x2.4 GHz Kryo 670 & 3x2.2 GHz Kryo 670 & 4x1.90 GHz Kryo 670   |
 | GPU                     | Adreno 642L                                                     |
 | Memory                  | 6GB / 8GB / 12GB                                                |
