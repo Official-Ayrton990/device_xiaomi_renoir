@@ -100,6 +100,10 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
 
+# Kernel modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.recovery.load))
+
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
 
