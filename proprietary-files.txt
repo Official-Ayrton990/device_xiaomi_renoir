@@ -1226,7 +1226,6 @@ vendor/lib/libpdmapper.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libqcc_file_agent.so
 vendor/lib/libqmi_csi.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libxtadapter.so
 vendor/lib/libxtwifi_server_protocol.so
 vendor/lib/libxtwifi_server_protocol_uri_v3.so
@@ -1261,7 +1260,6 @@ vendor/lib64/libpdmapper.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libqmi_csi.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_server_protocol.so
 vendor/lib64/libxtwifi_server_protocol_uri_v3.so
@@ -1864,14 +1862,11 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # Sensors
-vendor/bin/hw/android.hardware.sensors@2.0-service.multihal
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/bin/sscrpcd
-vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml
 vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib/libsensorcal.so
 vendor/lib/libsns_fastRPC_util.so
