@@ -449,5 +449,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/renoir/renoir-vendor.mk)
