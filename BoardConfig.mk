@@ -188,6 +188,9 @@ TARGET_USES_MKE2FS := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
+# RenderScript
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
