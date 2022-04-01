@@ -396,6 +396,12 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.xiaomi_lahaina-multihal \
     libsensorndkbridge
 
+# Servicetracker
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.servicetracker@1.0.vendor \
+    vendor.qti.hardware.servicetracker@1.1.vendor \
+    vendor.qti.hardware.servicetracker@1.2.vendor
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
