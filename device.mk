@@ -263,6 +263,13 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    libipanat \
+    liboffloadhal
+
 # NFC
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/sn100x
