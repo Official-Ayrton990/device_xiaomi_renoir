@@ -340,3 +340,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.xiaomi_lahaina-multihal \
     libsensorndkbridge
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
