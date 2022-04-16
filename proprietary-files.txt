@@ -1163,13 +1163,6 @@ vendor/bin/hw/android.hardware.dumpstate@1.1-service.xiaomi
 vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc
 vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml
 
-# Fingerprint
-system_ext/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
-system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
-vendor/lib/hw/fingerprint.fpc.so
-vendor/lib64/hw/fingerprint.fpc.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
-
 # FM
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
