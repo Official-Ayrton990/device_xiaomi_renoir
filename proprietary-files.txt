@@ -992,8 +992,6 @@ vendor/lib/vendor.qti.hardware.display.allocator@3.0.so
 vendor/lib/vendor.qti.hardware.display.allocator@4.0.so
 vendor/lib/vendor.qti.hardware.display.composer@1.0.so
 vendor/lib/vendor.qti.hardware.display.composer@2.0.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -1048,8 +1046,6 @@ vendor/lib64/vendor.qti.hardware.display.allocator@4.0.so
 vendor/lib64/vendor.qti.hardware.display.composer@1.0.so
 vendor/lib64/vendor.qti.hardware.display.composer@2.0.so
 vendor/lib64/vendor.qti.hardware.display.composer@3.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
 
 # Display configs
 vendor/etc/ltm_config_xiaomi_36_02_0a_cmd_mode_dsc_dsi_panel.xml
@@ -1106,20 +1102,10 @@ vendor/firmware/a660_zap.elf
 vendor/firmware/a660_zap.mdt
 
 # Display (Xiaomi)
-lib/vendor.xiaomi.hardware.displayfeature@1.0.so
-lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
-vendor/lib/hw/displayfeature.default.so
-vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib/libmi-stc-HW-modulate.so
 vendor/lib/libsdm-color.so
-vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib64/hw/displayfeature.default.so
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/libmi-stc-HW-modulate.so
 vendor/lib64/libsdm-color.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # DRM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
@@ -2423,7 +2409,6 @@ vendor/bin/hw/vendor.qti.sla.service@1.0-service
 vendor/bin/hw/vendor.qti.spu@1.1-service
 vendor/bin/hw/vendor.xiaomi.cit.bluetooth@1.0-service
 vendor/bin/hw/vendor.xiaomi.cit.wifi@1.0-service
-vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service
@@ -2464,7 +2449,6 @@ vendor/bin/diag_mdlog
 vendor/bin/diag_socket_log
 vendor/bin/diag_uart_log
 vendor/bin/displaycount
-vendor/bin/displayfeature
 vendor/bin/dpmQmiMgr
 vendor/bin/dumpsys
 vendor/bin/e_loop
@@ -2648,7 +2632,6 @@ vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor.xiaomi.cit.bluetooth@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
@@ -2700,7 +2683,6 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.cit.bluetooth@1.0_manifest.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.cit.wifi@1.0_manifest.xml
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.citsensorservice@1.1-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml
@@ -2908,7 +2890,6 @@ vendor/lib/hw/vendor.qti.hardware.eid@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
@@ -2987,8 +2968,6 @@ vendor/lib/libcppf.so
 vendor/lib/libcvpcpuRev_skel.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdisp-aba.so
-vendor/lib/libdisplayfeature.so
-vendor/lib/libdisplayfeatureservice.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libdisplayskuutils.so
 vendor/lib/libdpmqmihal.so
@@ -3185,8 +3164,6 @@ vendor/lib/vendor.qti.sla.service@1.0.so
 vendor/lib/vendor.qti.spu@1.0.so
 vendor/lib/vendor.qti.spu@1.1.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
 vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@3.0.so
@@ -3196,7 +3173,6 @@ vendor/lib64/hw/vendor.qti.hardware.eid@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
@@ -3275,8 +3251,6 @@ vendor/lib64/libcodec2_soft_ozoenc.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libdisp-aba.so
-vendor/lib64/libdisplayfeature.so
-vendor/lib64/libdisplayfeatureservice.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdpmqmihal.so
@@ -3496,8 +3470,6 @@ vendor/lib64/vendor.qti.spu@1.1.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.xiaomi.cit.bluetooth@1.0.so
 vendor/lib64/vendor.xiaomi.cit.wifi@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
