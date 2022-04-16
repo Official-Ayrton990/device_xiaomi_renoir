@@ -39,7 +39,7 @@
 /sys/devices/platform/soc/888000.i2c/i2c-6/6-0064/leds(/.*)?                        u:object_r:sysfs_leds:s0
 
 # Fingerprint
-/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2.1-service\.xiaomi_kona                      u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2.1-service\.xiaomi_lahaina                      u:object_r:hal_fingerprint_default_exec:s0
 
 # Lights
 /vendor/bin/hw/android\.hardware\.light-service\.xiaomi                 u:object_r:hal_light_default_exec:s0
