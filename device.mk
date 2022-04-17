@@ -382,3 +382,6 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/xiaomi/renoir/renoir-vendor.mk)
