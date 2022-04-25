@@ -6,7 +6,6 @@ audio.sys.routing.latency=0
 persist.sys.qseelogd=true
 ro.com.google.acsa=true
 ro.com.google.gmsversion=11_202106
-ro.com.google.ime.system_lm_dir=product/usr/share/ime/google/d3_lms/
 ro.miui.build.region=global
 ro.miui.google.csp=true
 ro.opa.eligible_device=true
