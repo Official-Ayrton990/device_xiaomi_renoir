@@ -347,6 +347,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Neural Networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor
+
 # NFC
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/sn100x
