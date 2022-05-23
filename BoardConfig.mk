@@ -125,6 +125,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7350
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+KERNEL_LD := LD=ld.lld
 
 # Kernel modules for first stage boot.
 BOOT_KERNEL_MODULES := \
