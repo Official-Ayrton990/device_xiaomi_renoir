@@ -168,7 +168,7 @@ echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us
 echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/up_rate_limit_us
 echo 1171200 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq
 echo 691200 > /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
-echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/pl
+echo 1 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/pl
 
 # configure input boost settings
 echo "0:0 1:0 2:0 3:0 4:2131200 5:0 6:0 7:0" > /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_freq
@@ -185,7 +185,7 @@ echo -6 > /sys/devices/system/cpu/cpu4/sched_load_boost
 echo -6 > /sys/devices/system/cpu/cpu5/sched_load_boost
 echo -6 > /sys/devices/system/cpu/cpu6/sched_load_boost
 echo 0 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/rtg_boost_freq
-echo 0 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/pl
+echo 1 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/pl
 
 # configure governor settings for gold+ cluster
 echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy7/scaling_governor
@@ -196,7 +196,7 @@ echo 806400 > /sys/devices/system/cpu/cpufreq/policy7/scaling_min_freq
 echo 85 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/hispeed_load
 echo -6 > /sys/devices/system/cpu/cpu7/sched_load_boost
 echo 0 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/rtg_boost_freq
-echo 0 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/pl
+echo 1 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/pl
 
 # colocation V3 settings
 echo 691200 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/rtg_boost_freq
@@ -205,7 +205,7 @@ echo 35 > /proc/sys/kernel/sched_min_task_util_for_colocation
 echo 20000000 > /proc/sys/kernel/sched_task_unfilter_period
 
 # Enable conservative pl
-echo 1 > /proc/sys/kernel/sched_conservative_pl
+echo 0 > /proc/sys/kernel/sched_conservative_pl
 
 # configure bus-dcvs
 for device in /sys/devices/platform/soc
@@ -218,9 +218,9 @@ do
 		echo 68 > $cpubw/bw_hwmon/io_percent
 		echo 20 > $cpubw/bw_hwmon/hist_memory
 		echo 0 > $cpubw/bw_hwmon/hyst_length
-		echo 80 > $cpubw/bw_hwmon/down_thres
+		echo 0 > $cpubw/bw_hwmon/down_thres
 		echo 0 > $cpubw/bw_hwmon/guard_band_mbps
-		echo 250 > $cpubw/bw_hwmon/up_scale
+		echo 200 > $cpubw/bw_hwmon/up_scale
 		echo 1600 > $cpubw/bw_hwmon/idle_mbps
 		echo 40 > $cpubw/polling_interval
 	done
@@ -237,9 +237,9 @@ do
 		echo 68 > $llccbw/bw_hwmon/io_percent
 		echo 20 > $llccbw/bw_hwmon/hist_memory
 		echo 0 > $llccbw/bw_hwmon/hyst_length
-		echo 80 > $llccbw/bw_hwmon/down_thres
+		echo 0 > $llccbw/bw_hwmon/down_thres
 		echo 0 > $llccbw/bw_hwmon/guard_band_mbps
-		echo 250 > $llccbw/bw_hwmon/up_scale
+		echo 200 > $llccbw/bw_hwmon/up_scale
 		echo 1600 > $llccbw/bw_hwmon/idle_mbps
 		echo 48 > $llccbw/polling_interval
 	done
