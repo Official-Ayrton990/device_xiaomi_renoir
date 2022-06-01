@@ -130,7 +130,6 @@ KERNEL_LD := LD=ld.lld
 # Kernel modules for first stage boot.
 BOOT_KERNEL_MODULES := \
     hwid.ko \
-    goodix_core.ko \
     focaltech_touch.ko \
     xiaomi_touch.ko
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
@@ -221,7 +220,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
-BOARD_VENDOR_SEPOLICY += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
