@@ -135,9 +135,6 @@ BOOT_KERNEL_MODULES := \
     xiaomi_touch.ko
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 
-# Kernel modules
-BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
-
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
